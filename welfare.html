@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LIFEBRIDGE</title>
+  <link rel="stylesheet" href="welfare.css" />
+</head>
+
+<button id="theme-toggle" class="theme-toggle">🌙</button>
+
+<body>
+  <div class="login-container"> <!-- Corrected and properly wrapped -->
+
+    <h2>LOGIN</h2>
+
+    <form action="/login" method="post">
+      <label for="username">Username or Email:</label><br>
+      <input type="text" id="username" name="username" required><br><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <div class="login-links"> <!-- Corrected class name -->
+      <p>Don't have an account? <a href="new_account.html">Register here</a></p>
+      <p>Forgot your password? <a href="passwordreset.html">Reset it here</a></p>
+    </div>
+
+  </div>
+  <script src="welfare.js"></script>
+</body>
+</html>
